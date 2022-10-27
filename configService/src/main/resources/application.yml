@@ -8,6 +8,7 @@ spring:
         git:
           uri: https://github.com/matiassanroman/microservicio.git
           searchPaths: config-data
+          default-label: master
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
