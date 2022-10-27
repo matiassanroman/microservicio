@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: registry-service
+  config:
+    import: configserver:http://localhost:8081 # example: import: configserver:http://192.168.0.4:8080
+  cloud:
+    config:
+      username: root # This is required only if your config server use authentication
+      password: s3cr3t # This is required only if your config server use authentication
